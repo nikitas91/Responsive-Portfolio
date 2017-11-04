@@ -112,6 +112,10 @@ h2 {
     top: -10px;
 }
 
+.content p:last-child {
+    margin-bottom: 0;
+}
+
 .sidebar {
     background: #fff;
     padding: 20px;
@@ -174,8 +178,8 @@ h2 {
 
 footer {
     background: #666666;
-    height: 50px;
-    line-height: 50px;
+    height: 60px;
+    line-height: 60px;
     text-align: center;
     border-top: 5px solid #4aaaa5;
     color: #c5c5c5;
@@ -219,3 +223,142 @@ textarea::placeholder {
     clear: both;
     display: table;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 980px) {
+    .navbar {
+      width: 800px;
+    }
+
+    .content-area {
+        width: 800px;
+    }
+
+    .main-content {
+        width: 451px;
+    }
+
+    #about-me-img {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 25px;
+    }
+
+    .sidebar {
+        width: 225px;
+    }
+
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    .card:nth-child(even) {
+        float: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: 720px;
+    }
+
+    .content-area {
+        width: 720px;
+    }
+
+    .main-content {
+        float: none;
+        width: auto;
+        margin-bottom: 40px;
+    }
+
+    #about-me-img {
+        width: 200px;
+        height: 200px;
+        float: left;
+        margin-right: 20px;
+    }
+
+    .sidebar {
+        float: none;
+        width: auto;
+    }
+
+    .sidebar-content {
+        text-align: left;
+    }
+
+    .card {
+        margin-left: 0;
+        margin-right: 0;
+        float: left;
+    }
+
+    .card:nth-child(even) {
+        float: right;
+    }
+
+    .content {
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    /* The body's bg color will be #333 */
+    header {
+        position: static;
+        width: 640px;
+    }
+
+    .navbar {
+        width: 640px;
+    }
+
+    .content-area {
+        width: 610px;
+    }
+
+    .logo {
+        float: none;
+        text-align: center;
+    }
+
+    #about-me-img {
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 25px;
+        margin-right: 0;
+    }
+
+    .navbar-nav {
+        float: none;
+        margin-top: 0px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .navbar-nav li {
+        float: left;
+        margin: 0;
+        padding: 20px 0;
+        width: 33%;
+        border: none;
+    }
+
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+    }
+
+    .card:nth-child(even) {
+        float: none;
+    }
+}
+
+/* MEDIA QUERIES END */
