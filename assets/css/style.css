@@ -201,7 +201,7 @@ textarea {
     font-size: 14px;
 }
 
-input[type=submit] {
+.btn {
     background: #4aaaa5;
     color: #fff;
     padding: 10px 30px;
