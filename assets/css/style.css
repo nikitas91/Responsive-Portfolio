@@ -202,6 +202,7 @@ textarea {
 }
 
 .btn {
+    -webkit-appearance: none;
     background: #4aaaa5;
     color: #fff;
     padding: 10px 30px;
