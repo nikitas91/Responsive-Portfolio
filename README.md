@@ -1,2 +1,6 @@
 # Responsive-Portfolio
-Response portfolio
+This is my Responsive Portfolio
+
+* Author: Nikita Sasunkevich
+* Week 2 Assignment: Responsive Portfolio
+* Class: UA Coding Bootcamp
